@@ -1,0 +1,23 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "Microservice app with node js ",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt validate --verbose",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadsakrdev/node-microservice.git"
+  },
+  "author": "Mohammad Sakr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadsakrdev/node-microservice/issues"
+  },
+  "homepage": "https://github.com/mohammadsakrdev/node-microservice#readme",
+  "dependencies": {
+    "seneca": "^3.15.1"
+  }
+}
